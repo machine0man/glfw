@@ -1,5 +1,5 @@
 -- premake's lua script to create static library project for glfw source code for windows rn
-project "GLFW"
+project "glfw"
 	kind "StaticLib"
 	language "C"
 
