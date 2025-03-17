@@ -3,8 +3,8 @@ project "GLFW"
 	kind "StaticLib"
 	language "C"
 
-	targetdir ("bin")
-	objdir ("bin-int")
+	targetdir ("bin/%{cfg.buildcfg}")
+	objdir ("bin-int/%{cfg.buildcfg}")
 
 	files
 	{
